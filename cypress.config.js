@@ -1,8 +1,11 @@
 const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
+  // point fake "staging" and "prod" URLs
+  // back at our local SSL servers
   hosts: {
     'staging.acme.co': '127.0.0.1',
+    'acme.co': '127.0.0.1',
   },
   e2e: {
     // default baseUrl, etc

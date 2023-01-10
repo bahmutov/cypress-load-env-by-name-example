@@ -6,7 +6,8 @@
   "scripts": {
     "test": "cypress run",
     "start": "serve public",
-    "start:staging": "serve public --ssl-cert ./.cert/staging-cert.pem --ssl-key ./.cert/staging-key.pem"
+    "start:staging": "serve public --ssl-cert ./.cert/staging-cert.pem --ssl-key ./.cert/staging-key.pem",
+    "start:prod": "serve public --ssl-cert ./.cert/prod-cert.pem --ssl-key ./.cert/prod-key.pem"
   },
   "repository": {
     "type": "git",
