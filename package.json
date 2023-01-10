@@ -1,0 +1,26 @@
+{
+  "name": "cypress-load-env-by-name-example",
+  "version": "1.0.0",
+  "description": "Load Cypress config and env variables from separate JSON files",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/cypress-load-env-by-name-example.git"
+  },
+  "keywords": [
+    "cypress-example"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/cypress-load-env-by-name-example/issues"
+  },
+  "homepage": "https://github.com/bahmutov/cypress-load-env-by-name-example#readme",
+  "devDependencies": {
+    "cypress": "^12.3.0",
+    "prettier": "^2.8.2"
+  }
+}
