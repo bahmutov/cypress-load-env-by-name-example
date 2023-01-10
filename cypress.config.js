@@ -1,6 +1,9 @@
 const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
+  hosts: {
+    'staging.acme.co': '127.0.0.1',
+  },
   e2e: {
     // default baseUrl, etc
     supportFile: false,

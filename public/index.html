@@ -1,0 +1,10 @@
+<body>
+  <h1>Hi</h1>
+  <script>
+    if (window.location.origin.includes('localhost')) {
+      document.querySelector('h1').innerText += ' (local)'
+    } else if (window.location.origin.includes('staging.')) {
+      document.querySelector('h1').innerText += ' (staging)'
+    }
+  </script>
+</body>

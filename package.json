@@ -4,7 +4,9 @@
   "description": "Load Cypress config and env variables from separate JSON files",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run"
+    "test": "cypress run",
+    "start": "serve public",
+    "start:staging": "serve public --ssl-cert ./.cert/staging-cert.pem --ssl-key ./.cert/staging-key.pem"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
   "homepage": "https://github.com/bahmutov/cypress-load-env-by-name-example#readme",
   "devDependencies": {
     "cypress": "^12.3.0",
-    "prettier": "^2.8.2"
+    "prettier": "^2.8.2",
+    "serve": "^14.1.2"
   }
 }

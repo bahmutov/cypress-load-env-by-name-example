@@ -1,5 +1,5 @@
 {
-  "baseUrl": "https://staging.acme.co",
+  "baseUrl": "https://staging.acme.co:3000",
   "env": {
     "greeting": "Hi (staging)"
   }
